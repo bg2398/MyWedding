@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
     
         // Send the form data to the Google Apps Script URL
-        $.post('https://script.google.com/macros/s/AKfycbxoxAyEbiwXuNYQrwpBZyjH4f3YF7uzxkJKHweDoNaXag02gyCY7GJ_h2v0cm0BXnbe/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbyQOIGv2WVpeNqO-rW7ZLT2OUR3i74qY6o3hJ4VUik0GXkIf1v-ZZsY3KdatNlaJJ4M/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {

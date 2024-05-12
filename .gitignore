@@ -18,3 +18,5 @@
 # .bootstrap.min.css
 # .styles.min.css
 .node_modules
+.package.json
+.package-lock.json

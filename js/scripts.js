@@ -187,20 +187,20 @@ $(document).ready(function () {
             title: "Brandon and Stephanie's Wedding",
 
             // Event start date
-            start: new Date('Aug 31st, 2024 1:00pm'),
+            start: new Date('Aug 30th, 2024 1:00pm'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Sep 1, 2024 12:00am'),
+            end: new Date('Aug 30th, 2024 11:00pm'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Legacy Farms, Buckley, Wa',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Brandon at 253-347-7685!"
         }
     });
 

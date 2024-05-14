@@ -184,17 +184,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Brandon and Stephanie's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Aug 31st, 2024 1:00pm'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Sep 1, 2024 12:00am'),
 
             // Event Address
             address: 'ITC Fortune Park Hotel, Kolkata',
@@ -238,14 +238,14 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 47.15107884705749, lng: -122.03937786096844};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
+    var marker = new google.maps.marker.AdvancedMarkerElement({
         position: location,
         map: map
     });
@@ -259,7 +259,7 @@ function initBBSRMap() {
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
+    var marker = new google.maps.marker.AdvancedMarkerElement({
         position: la_fiesta,
         map: map
     });
